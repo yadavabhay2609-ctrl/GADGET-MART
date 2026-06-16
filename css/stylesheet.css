@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: navy;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid black;
+    width: 250px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.title{
+    color: darkblue;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.price{
+    color: green;
+    font-size: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/back.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;   
+    z-index: -1;
+}
